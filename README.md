@@ -1,3 +1,17 @@
+# Key and mode annotations for the FMA dataset
+
+Stella Wong
+
+International Society for Music Information Retrieval Conference (ISMIR), 2023, Late Breaking Demo submission
+
+> We introduce a dataset of 5489 manually annotate tracks with key and mode for the
+> Free Music Archive (FMA), building on top of the "FMA: A Dataset for Music Analysis" dataset.
+> Additionally, we have mapped the majority (5257) of the tracks to Spotify uris, enabling
+> comparisons with the Spotify audio analyzer.
+> The annotated dataset is available at <https://github.com/stellaywong/fma_keys/blob/master/keys.csv>
+> which sits with a fork of FMA with example usage at <https://github.com/stellaywong/fma_keys>.
+> The example notebook is at <https://github.com/stellaywong/fma_keys/blob/master/keys.ipynb>.
+
 # FMA: A Dataset For Music Analysis
 
 [Michaël Defferrard](https://deff.ch),

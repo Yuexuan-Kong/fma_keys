@@ -225,6 +225,9 @@ def load(filepath):
 
         return tracks
 
+    if 'keys' in filename:
+        return pd.read_csv(filepath, index_col=0, header=[0, 1])
+
 
 def get_audio_path(audio_dir, track_id):
     """
